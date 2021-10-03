@@ -1,9 +1,0 @@
-Flask
-gunicorn
-JinjaZ
-MarkingSafe
-werkzeug
-pandas
-sklearn
-numpy
-scipy
