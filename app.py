@@ -25,7 +25,7 @@ def pred():
         high = request.form['high']
         vol = request.form['vol']
         a.extend([open,low,high,vol])
-        model=joblib.load('banks.pkl')
+        model=joblib.load('bank1.pkl')
         y_pred=model.predict([a])
         return render_template('prediction.html',msg="success",op=y_pred)
     return render_template('prediction.html')
